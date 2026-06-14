@@ -54,13 +54,23 @@ However, the direct comparison of X-ray spectral properties between far-infrared
 
 ## Repository structure
 
-```text
-report/        Final thesis report or summary
-figures/       Main figures and plots from the analysis
-methodology/   Explanation of the catalogue workflow and cross-matching strategy
-statistics/    Statistical testing, including the Kolmogorov-Smirnov test
-data/          Description of the data sources used
-```
+The repository is organized into the following sections:
+
+* [`report/`](report/)
+  Contains the final Bachelor's Thesis report.
+
+* [`figures/`](figures/)
+  Includes selected figures from the analysis, such as the multi-wavelength Venn diagram, redshift distributions, X-ray luminosity comparisons and FIR flux plots.
+
+* [`methodology/`](methodology/)
+  Describes the catalogue selection, cross-matching strategy, multi-wavelength classification and analysis workflow.
+
+* [`statistics/`](statistics/)
+  Documents the statistical comparison of subsamples, including the use of the Kolmogorov-Smirnov test.
+
+* [`data/`](data/)
+  Explains the astronomical catalogues used in the project and why the raw data are not included.
+
 
 ## Skills demonstrated
 
