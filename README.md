@@ -1,5 +1,3 @@
-# quasar-fir-xray-analysis
-Analysis of far-infrared and X-ray properties of quasars using astronomical catalogues and statistical tests.
 # Far-Infrared and X-ray Properties of Broad-Line Quasars
 
 Bachelor's Thesis project in Physics focused on the analysis of far-infrared and X-ray properties of broad-line quasars.
