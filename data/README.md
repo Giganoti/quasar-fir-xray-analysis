@@ -2,30 +2,25 @@
 
 Raw astronomical catalogues are not included in this repository.
 
-The Bachelor's Thesis analysis was based on public astronomical catalogues from optical, X-ray and far-infrared surveys.
+This project was based on public astronomical catalogues covering three wavelength ranges: optical, X-ray and far-infrared. These datasets were used to compare broad-line quasars detected in different bands and to study possible differences in their physical and spectral properties.
 
-## Data sources
+## Main data sources
 
-The main data sources used in the project were:
+The analysis used three main types of data:
 
-* **SDSS DR12Q**: optical quasar catalogue used for spectroscopic quasar identification and redshift information.
-* **XMM-Newton / XMM2ATHENA**: X-ray catalogue used to analyse X-ray spectral properties such as flux, luminosity, hydrogen column density and photon index.
-* **Herschel/SPIRE 250 microns**: far-infrared data used to identify FIR detections and analyse far-infrared flux.
+* **SDSS DR12Q**
+  Optical quasar catalogue used for spectroscopic identification and redshift information.
 
-## Why raw data are not included
+* **XMM-Newton / XMM2ATHENA**
+  X-ray catalogue used to study spectral properties such as flux, luminosity, hydrogen column density and photon index.
 
-The original catalogues are not included because:
+* **Herschel/SPIRE 250 microns**
+  Far-infrared data used to identify FIR detections and analyse emission related to dust and star formation in the host galaxy.
 
-* They may be large files.
-* They belong to external astronomical surveys and catalogues.
-* The purpose of this repository is to document the workflow, methodology and main results of the Bachelor's Thesis.
+## Why the raw data are not included
+
+The original catalogues are not uploaded to this repository because they are external scientific datasets and may contain large files. The purpose of this repository is to document the workflow, methodology, figures and statistical interpretation of the Bachelor's Thesis project.
 
 ## Data handling
 
-The analysis involved:
-
-* Selection of relevant catalogue columns.
-* Cross-matching between optical and X-ray catalogues.
-* Positional cross-matching with far-infrared sources.
-* Classification of sources according to their detection in different wavelength bands.
-* Statistical comparison of selected subsamples.
+The analysis involved selecting relevant catalogue columns, cross-matching sources between optical and X-ray catalogues, matching them with far-infrared detections using positional information, and classifying the resulting sources according to their detection in one or more wavelength bands.
